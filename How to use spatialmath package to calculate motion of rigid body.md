@@ -102,6 +102,4 @@ The class, method and functions names largely mirror those of the MATLAB toolbox
    $$
     print the answer and show the graph of the frame presented by the inverse.
 
-   
-
 2. Calculate  homogeneous matrix representing the two operations in homework 2.1. Draw the two frames presenting these operations in the same graph by different colors. 
