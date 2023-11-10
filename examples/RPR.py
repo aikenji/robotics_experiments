@@ -1,0 +1,24 @@
+# preamble
+from numpy import pi
+import numpy as np
+from matplotlib import pyplot as plt
+from roboticstoolbox import DHRobot, RevoluteMDH, PrismaticMDH
+
+
+# build the robot class
+class RPR(DHRobot):
+    def __init__(self):
+        # write in your DH numbers of robot
+        L1 = RevoluteMDH()
+        L2 = PrismaticMDH(alpha=pi / 2, qlim=[0, 1])
+        L3 = RevoluteMDH(d=1)
+        super().__init__([L1, L2, L3], name="RPR")
+
+        self.qz = np.array([0, 0, 0])
+        self.addconfiguration("qz", self.qz)
+
+
+# build my first bot
+bot1 = RPR()
+print(bot1)
+bot1.teach(bot1.qz)
