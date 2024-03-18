@@ -1,6 +1,6 @@
 ## 格式要求
 
-1. 全英文手写, 纸张A4大小,三页左右
+1. 全英文手写, 纸张A4大小,正文部分至少四页
 
 2. 如有图片, 打印后粘贴在报告中
 
@@ -127,4 +127,4 @@ https://www.bilibili.com/video/BV1v4411H7ez/?spm_id_from=333.337.search-card.all
 
 [NTU]introduction to robotics - Dynamics
 
-https://www.bilibili.com/video/BV1Vt41157jp/?spm_id_from=333.337.search-card.all.click
+##### https://www.bilibili.com/video/BV1Vt41157jp/?spm_id_from=333.337.search-card.all.click
