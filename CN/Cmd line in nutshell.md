@@ -122,7 +122,6 @@
 
     此命令显示指定文件的最后几行。
 
-
 这些只是一些基本的 shell 命令。还有许多其他命令可用，每个命令都具有自己特定的功能和选项。
 
 ## on windows
@@ -226,3 +225,16 @@
     此命令创建新文件。
 
 这些只是 Windows 中基本 shell 命令的一些示例。Windows 还有 PowerShell，它是一个更高级的 shell，具有自己的一套命令和功能。
+
+## 作业
+
+使用命令行创建以下文件结构：
+
+```bash
+robotics/
+├── experiments/
+│   └── hello.py
+└── tutorials/
+    └── cmd line in nutshell.md
+
+```

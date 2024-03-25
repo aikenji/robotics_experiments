@@ -16,7 +16,7 @@
 8. **安装**：安装程序将开始安装Anaconda。这可能需要几分钟。
 9. **完成**：安装完成后，点击“下一步”。
 10. **启动Anaconda Navigator（可选）**：您可以选择启动Anaconda Navigator，这是一个用于管理环境和软件包的图形用户界面。如果选中，请点击“完成”。
-11. **验证安装**：打开命令提示符或Anaconda提示符，键入 `conda --version`。如果Anaconda安装正确，它将显示版本号。
+11. **验证安装**：进入Anaconda Prompt，键入 `conda --version`。如果Anaconda安装正确，它将显示版本号。
 
 Anaconda现已成功安装在您的Windows系统上。您可以使用Anaconda创建和管理Python环境，安装软件包，并运行Python代码。
 
@@ -28,8 +28,11 @@ Anaconda现已成功安装在您的Windows系统上。您可以使用Anaconda创
    conda install jupyter
    ```
 
-1. 根据以下教程，在robotics_experiments文件夹下打开jupyter
-   https://www.edlitera.com/en/blog/posts/guide-how-to-start-jupyter-notebook
+1. 在experiments文件夹输入以下命令下打开jupyter notebook
+
+   ```bash
+   jupyter notebook
+   ```
 
 2. 新建一个txt file，重命名为hello.py, 输入以下代码并保存
 
@@ -40,10 +43,11 @@ Anaconda现已成功安装在您的Windows系统上。您可以使用Anaconda创
    hello("robotics world")
    ```
 
-3. 执行代码，在robotics_experiments文件夹下通过命令行输入
+3. 关闭jupyter，在命令行中按`ctrl+c`退出，在experiments文件夹下通过命令行输入
 
    ```bash
-   python3 hello.py
+   python hello.py
    ```
 
-   
+执行代码
+
