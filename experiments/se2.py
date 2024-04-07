@@ -1,7 +1,7 @@
 from spatialmath import SE2
 from matplotlib import pyplot as plt
 
-T = SE2(4, 3, 60, unit="deg")
+T = SE2(1, 1, 60, unit="deg")
 T_1 = SE2(0, 0, 30, unit="deg")
 T_0 = SE2(0, 0, 0, unit="deg")
 p = [1, 0]
