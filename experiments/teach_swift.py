@@ -13,7 +13,7 @@ env = swift.Swift()
 env.launch()
 
 # Make a Panda robot and add it to Swift
-panda = rtb.models.AL5D()
+panda = rtb.models.Panda()
 # panda.q = panda.qr
 env.add(panda)
 
